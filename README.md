@@ -5,11 +5,17 @@ This project implements an automated data pipeline designed to extract real-time
 
 Key Features
 Real-time Data Ingestion: Fetches the latest cryptocurrency market data from the CoinGecko API.
+
 Broad Cryptocurrency Coverage: Captures price information for a wide range of cryptocurrencies available on the CoinGecko API at the time of execution.
+
 Data Transformation: Converts the raw API response into a structured JSON format for better readability and processing.
+
 Automated Operation: Utilizes the schedule library to run the data pipeline automatically every hour.
+
 Data Persistence: Stores the extracted and transformed data in a local SQLite database, creating a structured data warehouse.
+
 Key Market Metrics: Extracts and stores essential cryptocurrency data points including ID, symbol, name, current price, market capitalization, and total volume.
+
 Structured Data for Analysis: Provides a well-structured data source that enhances the scope for data analysts to perform in-depth analysis.
 
 Architecture Diagram :
@@ -37,20 +43,32 @@ The extracted and transformed cryptocurrency data will be stored in the crypto_d
 Technologies Used
 Python
 logging: For logging application events.
+
 os: For interacting with the operating system.
+
 requests: For making HTTP requests to the CoinGecko API.
+
 json: For working with JSON data.
+
 datetime: For handling date and time information.
+
 sqlalchemy: For interacting with the SQLite database in an ORM-like fashion.
+
 sqlalchemy.create_engine: To create the database engine.
+
 sqlalchemy.text: To write and execute raw SQL queries (if needed).
+
 pandas: For data manipulation and analysis (can be used to interact with the SQLite database).
+
 schedule: For scheduling the data pipeline to run automatically.
+
 time: For time-related functionalities.
+
 sqlalchemy.types: Specifically using String, BigInteger, DECIMAL, and DateTime for defining database schema.
 
 Challenges and Solutions
 "Initially, handling potential API rate limits was a concern. The current implementation includes basic error handling and a 1-hour schedule which helps to stay within the free tier limits of the CoinGecko API."
+
 "During the data loading phase, initial attempts were made using MySQL. However, challenges related to database setup, including authentication and server-side configuration, were encountered. To streamline the project and ensure feasibility, the data warehouse was subsequently switched to SQLite, which offers a simpler setup and is suitable for the project's current scope."
 
 Improvements thought of :
