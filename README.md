@@ -2,6 +2,7 @@
 
 Overview:
 This project implements an automated data pipeline designed to extract real-time cryptocurrency market data and load it into a SQLite data warehouse. The primary goal is to provide analysts with readily available, up-to-date cryptocurrency information without manual intervention, facilitating easier analysis of market trends and potential buying opportunities at lower costs. The pipeline fetches data from the CoinGecko API, performs basic transformations, and stores it in a structured format for efficient querying.
+
 Key Features
 Real-time Data Ingestion: Fetches the latest cryptocurrency market data from the CoinGecko API.
 Broad Cryptocurrency Coverage: Captures price information for a wide range of cryptocurrencies available on the CoinGecko API at the time of execution.
@@ -21,9 +22,11 @@ Navigate to the project directory:
 cd automated_crypto_data_pipeline
 Install required dependencies:
 pip install -r requirements.txt
+
 Configuration
 API Key: This project utilizes the CoinGecko public API, which does not require an API key for the specific endpoint used (/coins/markets). However, if you intend to use other CoinGecko API endpoints that require a key in the future, you should handle it securely using environment variables or a dedicated configuration file (not committed to the repository).
 Database Configuration: The project uses a local SQLite database named crypto_data.db (or a name you define in your code). The database file will be created automatically if it doesn't exist. You can modify the database file name in your code if needed.
+
 Usage
 Run the main script:
 python pipeline.py
