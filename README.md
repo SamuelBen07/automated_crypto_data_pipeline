@@ -31,11 +31,14 @@ pip install -r requirements.txt
 
 Configuration
 API Key: This project utilizes the CoinGecko public API, which does not require an API key for the specific endpoint used (/coins/markets). However, if you intend to use other CoinGecko API endpoints that require a key in the future, you should handle it securely using environment variables or a dedicated configuration file (not committed to the repository).
+
 Database Configuration: The project uses a local SQLite database named crypto_data.db (or a name you define in your code). The database file will be created automatically if it doesn't exist. You can modify the database file name in your code if needed.
 
 Usage
+
 Run the main script:
 python pipeline.py
+
 Ensure that you are project's root directory while running.
 Once the script is running, the data pipeline will automatically execute every hour as per the schedule defined using the schedule library.
 The extracted and transformed cryptocurrency data will be stored in the crypto_data.db SQLite database. Analysts can then connect to this database using SQL tools or Python libraries like sqlite3 or pandas to query and analyze the data.
@@ -73,13 +76,20 @@ Challenges and Solutions
 
 Improvements thought of :
 Implementing more robust error handling and logging.
+
 Adding support for configuring the schedule through environment variables or a configuration file.
+
 Allowing users to specify the cryptocurrencies they are interested in.
+
 Integrating data visualization capabilities.
+
 Exploring other data storage options or data warehouses.
+
 Contributing
 "Contributions are welcome! Please fork the repository and submit a pull request with your proposed changes. Please ensure your code adheres to the project's coding style and includes relevant tests."
+
 License
 This project is licensed under the MIT License.
+
 Contact:
 jacinthsj7@gmail.com
