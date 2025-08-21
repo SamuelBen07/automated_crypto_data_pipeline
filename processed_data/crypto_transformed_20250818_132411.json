@@ -1,0 +1,92 @@
+[
+    {
+        "id": "bitcoin",
+        "symbol": "btc",
+        "name": "Bitcoin",
+        "current_price": 115377,
+        "market_cap": 2297127335021,
+        "total_volume": 32317276701,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "ethereum",
+        "symbol": "eth",
+        "name": "Ethereum",
+        "current_price": 4259.25,
+        "market_cap": 514246664023,
+        "total_volume": 39536098726,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "ripple",
+        "symbol": "xrp",
+        "name": "XRP",
+        "current_price": 2.97,
+        "market_cap": 176590030751,
+        "total_volume": 5232668911,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "tether",
+        "symbol": "usdt",
+        "name": "Tether",
+        "current_price": 1.001,
+        "market_cap": 166841447808,
+        "total_volume": 84607158271,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "binancecoin",
+        "symbol": "bnb",
+        "name": "BNB",
+        "current_price": 829.81,
+        "market_cap": 115584676009,
+        "total_volume": 1460740237,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "solana",
+        "symbol": "sol",
+        "name": "Solana",
+        "current_price": 180.79,
+        "market_cap": 97672227355,
+        "total_volume": 5686065790,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "usd-coin",
+        "symbol": "usdc",
+        "name": "USDC",
+        "current_price": 0.999856,
+        "market_cap": 68143359260,
+        "total_volume": 12055316144,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "staked-ether",
+        "symbol": "steth",
+        "name": "Lido Staked Ether",
+        "current_price": 4249.36,
+        "market_cap": 37527450196,
+        "total_volume": 66640666,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "dogecoin",
+        "symbol": "doge",
+        "name": "Dogecoin",
+        "current_price": 0.22258,
+        "market_cap": 33532408125,
+        "total_volume": 2821606309,
+        "timestamp": "2025-08-18 13:24:11"
+    },
+    {
+        "id": "cardano",
+        "symbol": "ada",
+        "name": "Cardano",
+        "current_price": 0.917247,
+        "market_cap": 33433206111,
+        "total_volume": 2398276412,
+        "timestamp": "2025-08-18 13:24:11"
+    }
+]

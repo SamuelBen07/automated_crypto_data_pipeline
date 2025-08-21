@@ -1,0 +1,71 @@
+2025-08-06 17:52:26,027 - INFO - Pipeline initialized
+2025-08-06 17:52:33,849 - INFO - Pipeline initialized
+2025-08-06 17:55:47,163 - INFO - Pipeline initialized
+2025-08-18 12:05:25,638 - INFO - Pipeline initialized
+2025-08-18 12:05:26,194 - INFO - Data extracted successfully: raw_data/crypto_20250818_120526.json
+2025-08-18 12:05:28,451 - ERROR - Data load failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 12:05:28,451 - ERROR - Pipeline run failed
+2025-08-18 12:05:45,080 - INFO - Pipeline initialized
+2025-08-18 12:05:45,080 - INFO - Scheduler started: running every 15 minutes
+2025-08-18 12:05:45,252 - INFO - Data extracted successfully: raw_data/crypto_20250818_120545.json
+2025-08-18 12:05:47,388 - ERROR - Data load failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 12:20:46,475 - INFO - Data extracted successfully: raw_data/crypto_20250818_122046.json
+2025-08-18 12:20:48,522 - ERROR - Data load failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 12:35:49,507 - INFO - Data extracted successfully: raw_data/crypto_20250818_123549.json
+2025-08-18 12:35:51,540 - ERROR - Data load failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 12:50:52,527 - INFO - Data extracted successfully: raw_data/crypto_20250818_125052.json
+2025-08-18 12:50:54,588 - ERROR - Data load failed: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 13:05:55,704 - INFO - Data extracted successfully: raw_data/crypto_20250818_130555.json
+2025-08-18 13:05:55,726 - ERROR - Data load failed: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2025-08-18 13:24:11,199 - INFO - Pipeline initialized
+2025-08-18 13:24:11,797 - INFO - Data extracted successfully: raw_data/crypto_20250818_132411.json
+2025-08-18 13:24:11,805 - INFO - Transformed JSON written: processed_data/crypto_transformed_20250818_132411.json
+2025-08-18 13:24:11,946 - ERROR - JSON load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 13:24:11,956 - ERROR - Data load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 13:24:11,956 - ERROR - Pipeline run failed
+2025-08-18 13:33:05,909 - INFO - Pipeline initialized
+2025-08-18 13:33:06,403 - INFO - Data extracted successfully: raw_data/crypto_20250818_133306.json
+2025-08-18 13:33:06,408 - INFO - Transformed JSON written: processed_data/crypto_transformed_20250818_133306.json
+2025-08-18 13:33:06,508 - ERROR - \u274c JSON load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 13:33:06,527 - ERROR - \u274c Data load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 13:33:06,527 - ERROR - Pipeline run failed
+2025-08-18 19:56:02,955 - INFO - Pipeline initialized
+2025-08-18 19:56:03,475 - INFO - Data extracted successfully: raw_data/crypto_20250818_195603.json
+2025-08-18 19:56:03,484 - INFO - Transformed JSON written: processed_data/crypto_transformed_20250818_195603.json
+2025-08-18 19:56:03,714 - ERROR - \u274c JSON load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 19:56:03,732 - ERROR - \u274c Data load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 19:56:03,732 - ERROR - Pipeline run failed
+2025-08-18 20:08:10,110 - INFO - Pipeline initialized
+2025-08-18 20:08:10,642 - INFO - Data extracted successfully: raw_data/crypto_20250818_200810.json
+2025-08-18 20:08:10,652 - INFO - Transformed JSON written: processed_data/crypto_transformed_20250818_200810.json
+2025-08-18 20:08:10,752 - ERROR - \u274c JSON load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 20:08:10,768 - ERROR - \u274c Data load failed: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: NO)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-18 20:08:10,768 - ERROR - Pipeline run failed
+2025-08-21 00:42:10,989 - INFO - Pipeline initialized
+2025-08-21 00:42:11,861 - INFO - Data extracted successfully: raw_data/crypto_20250821_004211.json
+2025-08-21 00:42:11,872 - INFO - Transformed JSON written: processed_data/crypto_transformed_20250821_004211.json
+2025-08-21 00:42:11,994 - ERROR - \u274c JSON load failed: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO market_data_json (collected_at, payload) VALUES (?, ?)]
+[parameters: [{'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "bitcoin", "symbol": "btc", "name": "Bitcoin", "current_price": 113760.0, "market_cap": 2263712496556, "total_volume": 44800432598, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "ethereum", "symbol": "eth", "name": "Ethereum", "current_price": 4304.35, "market_cap": 519020970706, "total_volume": 42289158267, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "ripple", "symbol": "xrp", "name": "XRP", "current_price": 2.93, "market_cap": 174190068998, "total_volume": 7352413498, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "tether", "symbol": "usdt", "name": "Tether", "current_price": 1.0, "market_cap": 167017820671, "total_volume": 99992646654, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "binancecoin", "symbol": "bnb", "name": "BNB", "current_price": 863.35, "market_cap": 120168816598, "total_volume": 1794959735, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "solana", "symbol": "sol", "name": "Solana", "current_price": 184.13, "market_cap": 99363145487, "total_volume": 6284428619, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "usd-coin", "symbol": "usdc", "name": "USDC", "current_price": 0.99986, "market_cap": 67476620825, "total_volume": 18677569419, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "staked-ether", "symbol": "steth", "name": "Lido Staked Ether", "current_price": 4290.39, "market_cap": 37864665666, "total_volume": 46019111, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "tron", "symbol": "trx", "name": "TRON", "current_price": 0.351471, "market_cap": 33274661535, "total_volume": 1251068874, "timestamp": "2025-08-21 00:42:11"}'}, {'collected_at': '2025-08-21 00:42:11', 'payload': '{"id": "dogecoin", "symbol": "doge", "name": "Dogecoin", "current_price": 0.217872, "market_cap": 32798745827, "total_volume": 3263793556, "timestamp": "2025-08-21 00:42:11"}'}]]
+2025-08-21 00:42:12,030 - INFO - \u2705 Loaded 10 rows into SQLite table:market_data
+2025-08-21 00:42:12,030 - ERROR - Pipeline run failed
+2025-08-21 01:09:12,484 - INFO - Starting scheduled pipeline.First job will run at the scheduled time.
+2025-08-21 01:09:12,487 - INFO - =============================
+2025-08-21 01:09:12,488 - INFO - Starting scheduled pipeline run
+2025-08-21 01:09:13,350 - INFO - Data extracted successfully: raw_data/crypto_20250821_010913.json
+2025-08-21 01:09:13,352 - INFO - Transformed JSON written: processed_data/crypto_transformed_20250821_010913.json
+2025-08-21 01:09:13,801 - INFO - Pipeline run finished.JSON Load: Failed,DF Load: Success
+2025-08-21 01:09:13,801 - INFO - =============================

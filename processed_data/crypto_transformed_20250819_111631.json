@@ -1,0 +1,92 @@
+[
+    {
+        "id": "bitcoin",
+        "symbol": "btc",
+        "name": "Bitcoin",
+        "current_price": 115242,
+        "market_cap": 2294423310010,
+        "total_volume": 42419817238,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "ethereum",
+        "symbol": "eth",
+        "name": "Ethereum",
+        "current_price": 4244.23,
+        "market_cap": 512071297564,
+        "total_volume": 43604525868,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "ripple",
+        "symbol": "xrp",
+        "name": "XRP",
+        "current_price": 3.02,
+        "market_cap": 179521757738,
+        "total_volume": 6930163038,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "tether",
+        "symbol": "usdt",
+        "name": "Tether",
+        "current_price": 1.0,
+        "market_cap": 167092834277,
+        "total_volume": 95919721745,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "binancecoin",
+        "symbol": "bnb",
+        "name": "BNB",
+        "current_price": 848.63,
+        "market_cap": 117881972135,
+        "total_volume": 1610131927,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "solana",
+        "symbol": "sol",
+        "name": "Solana",
+        "current_price": 180.28,
+        "market_cap": 97232477189,
+        "total_volume": 5915099968,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "usd-coin",
+        "symbol": "usdc",
+        "name": "USDC",
+        "current_price": 0.999809,
+        "market_cap": 68363481093,
+        "total_volume": 10419257822,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "staked-ether",
+        "symbol": "steth",
+        "name": "Lido Staked Ether",
+        "current_price": 4237.8,
+        "market_cap": 37427338613,
+        "total_volume": 81725136,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "cardano",
+        "symbol": "ada",
+        "name": "Cardano",
+        "current_price": 0.917832,
+        "market_cap": 33320803998,
+        "total_volume": 2484617729,
+        "timestamp": "2025-08-19 11:16:31"
+    },
+    {
+        "id": "tron",
+        "symbol": "trx",
+        "name": "TRON",
+        "current_price": 0.347248,
+        "market_cap": 32866036524,
+        "total_volume": 1093782456,
+        "timestamp": "2025-08-19 11:16:31"
+    }
+]

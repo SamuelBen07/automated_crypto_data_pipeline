@@ -1,0 +1,92 @@
+[
+    {
+        "id": "bitcoin",
+        "symbol": "btc",
+        "name": "Bitcoin",
+        "current_price": 113760,
+        "market_cap": 2263712496556,
+        "total_volume": 44800432598,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "ethereum",
+        "symbol": "eth",
+        "name": "Ethereum",
+        "current_price": 4304.35,
+        "market_cap": 519020970706,
+        "total_volume": 42289158267,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "ripple",
+        "symbol": "xrp",
+        "name": "XRP",
+        "current_price": 2.93,
+        "market_cap": 174190068998,
+        "total_volume": 7352413498,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "tether",
+        "symbol": "usdt",
+        "name": "Tether",
+        "current_price": 1.0,
+        "market_cap": 167017820671,
+        "total_volume": 99992646654,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "binancecoin",
+        "symbol": "bnb",
+        "name": "BNB",
+        "current_price": 863.35,
+        "market_cap": 120168816598,
+        "total_volume": 1794959735,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "solana",
+        "symbol": "sol",
+        "name": "Solana",
+        "current_price": 184.13,
+        "market_cap": 99363145487,
+        "total_volume": 6284428619,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "usd-coin",
+        "symbol": "usdc",
+        "name": "USDC",
+        "current_price": 0.99986,
+        "market_cap": 67476620825,
+        "total_volume": 18677569419,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "staked-ether",
+        "symbol": "steth",
+        "name": "Lido Staked Ether",
+        "current_price": 4290.39,
+        "market_cap": 37864665666,
+        "total_volume": 46019111,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "tron",
+        "symbol": "trx",
+        "name": "TRON",
+        "current_price": 0.351471,
+        "market_cap": 33274661535,
+        "total_volume": 1251068874,
+        "timestamp": "2025-08-21 00:42:11"
+    },
+    {
+        "id": "dogecoin",
+        "symbol": "doge",
+        "name": "Dogecoin",
+        "current_price": 0.217872,
+        "market_cap": 32798745827,
+        "total_volume": 3263793556,
+        "timestamp": "2025-08-21 00:42:11"
+    }
+]
